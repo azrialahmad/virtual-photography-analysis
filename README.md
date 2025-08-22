@@ -3,17 +3,17 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
-A data analysis project that explores a dataset of 150+ top-rated virtual photos to uncover the key characteristics of a successful image.
+A data analysis project that explores a dataset of 90+ top-rated virtual photos to uncover the key characteristics of a successful image.
 
 ---
 
-### ## 📌 Introduction
+### 📌 Introduction
 
 Virtual photography is a rapidly growing art form where players capture the beauty of digital worlds. This project sought to answer the question: **What makes an in-game photograph successful?** I collected data from online communities and used Python and SQL to find data-driven insights into the subjects, compositions, and games that resonate most with audiences.
 
 ---
 
-### ## 🚀 Key Findings
+### 🚀 Key Findings
 
 My analysis uncovered several key trends:
 
@@ -25,7 +25,7 @@ My analysis uncovered several key trends:
 
 ---
 
-### ## 📊 Key Visualizations
+### 📊 Key Visualizations
 
 #### The highest-rated compositions are not the most common:
 
@@ -37,17 +37,16 @@ My analysis uncovered several key trends:
 
 ---
 
-### ## 🛠️ Methodology
+### 🛠️ Methodology
 
-1.  **Data Collection:** Scraped over 99 top-rated images from the past year from Reddit communities like r/virtualphotographers and r/divinegamingphotos.
+1.  **Data Collection:** Scraped 100 top-rated images from the past year from Reddit communities like r/virtualphotographers and r/divinegamingphotos.
 2.  **Data Classification:** Manually categorized each image by `game_name`, `subject_type`, `composition_style`, and `dominant_color`.
 3.  **Database:** Loaded the dataset into an SQLite database for querying.
 4.  **Analysis & Visualization:** Used Python with Pandas to query the database and Matplotlib/Seaborn to generate visualizations in a Jupyter Notebook.
 
 ---
 
-### ## 📂 Files in this Repository
+### 📂 Files in this Repository
 
 - `analysis.ipynb`: The complete Jupyter Notebook with all code, analysis, and findings.
 - `photos.csv`: The raw dataset used for the analysis.
-- `portfolio_summary.pdf`: A one-page summary of the project.
